@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Inter UI";
+  src: url("https://static.linear.app/fonts/Inter-UI-Regular.woff2?v=3.2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("https://static.linear.app/fonts/Inter-UI-Medium.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: 400;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("https://static.linear.app/fonts/Inter-UI-ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: 800;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("https://static.linear.app/fonts/Inter-UI-SemiBold.woff2?v=3.2")
+    format("woff2");
+  font-weight: 600;
+  font-style: 600;
+}
+
 html,
 body {
   width: 100%;
@@ -5,8 +37,8 @@ body {
   background-color: #060606;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
