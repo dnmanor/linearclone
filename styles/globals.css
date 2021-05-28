@@ -41,9 +41,12 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
+a, a svg path {
+  color: #5E6AD2;
   text-decoration: none;
+  cursor: pointer;
+  color: #828fff;
+  transition: color 0.2s;
 }
 
 * {

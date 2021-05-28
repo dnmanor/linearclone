@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/header.module.css";
 import Image from "next/image";
 
 const Header = () => {
+  const [isHidden, setIsHidden] = useState(true);
+
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
@@ -26,7 +28,7 @@ const Header = () => {
                   About us
                 </a>
                 <a href="" className={styles.menuItem}>
-                  Pricinghh
+                  Pricing
                 </a>
                 <a href="" className={styles.menuItem}>
                   We're hiring
@@ -42,7 +44,12 @@ const Header = () => {
               Log In
             </a>
             <button className={styles.signUpBtn}>Sign Up</button>
-            <span className={styles.burgerWrapper}>
+            <span
+              className={styles.burgerWrapper}
+              onClick={() => {
+                setIsHidden(!isHidden);
+              }}
+            >
               <Image
                 src="/burgericon.svg"
                 alt="menu"
@@ -54,7 +61,35 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {isHidden ? <span></span> : <MobileMenu />}
     </header>
+  );
+};
+
+const MobileMenu = () => {
+  return (
+    // <div>
+      <div className={styles.mbnavContent}>
+        <a href="" className={styles.mbmenuItem}>
+          Method
+        </a>
+        <a href="" className={styles.mbmenuItem}>
+          Changelog
+        </a>
+        <a href="" className={styles.mbmenuItem}>
+          About us
+        </a>
+        <a href="" className={styles.mbmenuItem}>
+          Pricing
+        </a>
+        <a href="" className={styles.mbmenuItem}>
+          We're hiring
+        </a>
+        <a href="" className={styles.mbmenuItem}>
+          Twitter
+        </a>
+      </div>
+    // </div>
   );
 };
 
