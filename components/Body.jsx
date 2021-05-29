@@ -29,6 +29,9 @@ const Body = () => {
           Linear helps streamline software projects, sprints, tasks, and bug
           tracking. It's built for high-performance teams.
         </p>
+        <button className={styles.signUpBtn}>
+        Sign up for free -&gt;
+        </button>
       </span>
     </div>
   );
