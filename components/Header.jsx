@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import styles from "../styles/header.module.css";
 import Image from "next/image";
 
 const Header = () => {
   const [isHidden, setIsHidden] = useState(true);
+//   const desktopView = useRef('')
+
+//   React.useEffect(() => {
+//     const mql = window.matchMedia("(min-width: 900px)");
+
+//      desktopView.current = mql.matches;
+
+//     if (desktopView.current) {
+//       setIsHidden(true);
+//     }
+//   }, [desktopView]);
 
   return (
     <header className={styles.header}>
@@ -69,26 +80,26 @@ const Header = () => {
 const MobileMenu = () => {
   return (
     // <div>
-      <div className={styles.mbnavContent}>
-        <a href="" className={styles.mbmenuItem}>
-          Method
-        </a>
-        <a href="" className={styles.mbmenuItem}>
-          Changelog
-        </a>
-        <a href="" className={styles.mbmenuItem}>
-          About us
-        </a>
-        <a href="" className={styles.mbmenuItem}>
-          Pricing
-        </a>
-        <a href="" className={styles.mbmenuItem}>
-          We're hiring
-        </a>
-        <a href="" className={styles.mbmenuItem}>
-          Twitter
-        </a>
-      </div>
+    <div className={styles.mbnavContent}>
+      <a href="" className={styles.mbmenuItem}>
+        Method
+      </a>
+      <a href="" className={styles.mbmenuItem}>
+        Changelog
+      </a>
+      <a href="" className={styles.mbmenuItem}>
+        About us
+      </a>
+      <a href="" className={styles.mbmenuItem}>
+        Pricing
+      </a>
+      <a href="" className={styles.mbmenuItem}>
+        We're hiring
+      </a>
+      <a href="" className={styles.mbmenuItem}>
+        Twitter
+      </a>
+    </div>
     // </div>
   );
 };

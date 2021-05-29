@@ -1,0 +1,121 @@
+.bodyContainer {
+  padding: 160px 32px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* flex: 1 1 auto; */
+  flex-direction: column;
+  /* padding: 160px 0px 0px; */
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bannerContainer {
+  display: flex;
+  position: relative;
+  padding: 1px;
+  border-radius: 8px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 40px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.releaseBanner {
+  background: conic-gradient(
+    from 217.29deg at 51.63% 52.16%,
+    rgb(36, 0, 255) 0deg,
+    rgb(0, 135, 255) 19.5deg,
+    rgb(255, 29, 122) 102.75deg,
+    rgb(245, 56, 27) 152.25deg,
+    rgb(255, 83, 53) 208.88deg,
+    rgb(105, 30, 255) 291deg
+  );
+  border-radius: 8px;
+  height: 75px;
+  filter: blur(5px);
+  padding: inherit;
+  width: 100%;
+}
+
+/* .releaseBanner::before{
+      filter: blur(1px);
+  } */
+
+.bannerContent {
+  display: flex;
+  flex: initial;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgb(11, 11, 12);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 11px 24px 11px 16px;
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.releaseLogo {
+  width: 24px;
+  height: 24px;
+}
+
+.releaseNameWrapper {
+  margin-left: 24px;
+  display: flex;
+  flex-shrink: initial;
+  flex-basis: initial;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.releaseName {
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(247, 248, 248);
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.hBar {
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(67, 76, 88);
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.whatsNew {
+  margin-left: 24px;
+  color: rgb(247, 248, 248);
+}
+
+@media (max-width: 600px) {
+  .bodyContainer {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bannerContent {
+    padding: 11px 16px;
+    flex-direction: column;
+  }
+
+  .hBar {
+    display: none;
+  }
+
+  .releaseLogo {
+    padding-bottom: 5px;
+  }
+
+  .releaseName {
+    padding-bottom: 5px;
+  }
+}
