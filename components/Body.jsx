@@ -21,6 +21,11 @@ const Body = () => {
             <span className={styles.whatsNew}>See what’s new →</span>
           </div>
             </span>
+            <span className={styles.titleWrapper}>
+              <h1 className={styles.heroTitle}>
+              The issue tracking <br /> tool you'll enjoy using
+              </h1>
+            </span>
 
         </div>
     )
