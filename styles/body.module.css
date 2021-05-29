@@ -97,7 +97,7 @@
 
 @media (max-width: 600px) {
   .bodyContainer {
-    padding: 0 24px;
+    padding: inherit 24px;
   }
 }
 
@@ -112,10 +112,14 @@
   }
 
   .releaseLogo {
-    padding-bottom: 5px;
+    padding: 5px 0;
   }
 
   .releaseName {
-    padding-bottom: 5px;
+    padding: 5px 0;
+  }
+
+  .whatsNew{
+      padding: 3px 0;
   }
 }
