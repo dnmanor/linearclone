@@ -101,6 +101,7 @@
   text-align: center;
   justify-content: center;
   margin: 30px 0;
+  flex-direction: column;
 }
 
 .heroTitle{
@@ -112,6 +113,15 @@
   color: rgb(247, 248, 248);
 }
 
+.heroDescription{
+  max-width: 720px;
+  font-size: 1.6rem;
+  color: #95a2b3;
+  line-height: 1.5;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
 @media (max-width: 1030px){
   .heroTitle{
     font-size: 8vw;
@@ -121,6 +131,10 @@
 @media (max-width: 600px) {
   .bodyContainer {
     padding: inherit 24px;
+  }
+
+  .heroDescription{
+    font-size: 1.5rem;
   }
 }
 
