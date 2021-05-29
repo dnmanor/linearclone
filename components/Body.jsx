@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/body.module.css";
+import Image from "next/image";
 
 const Body = () => {
   return (
@@ -29,9 +30,18 @@ const Body = () => {
           Linear helps streamline software projects, sprints, tasks, and bug
           tracking. It's built for high-performance teams.
         </p>
-        <button className={styles.signUpBtn}>
-        Sign up for free -&gt;
-        </button>
+        <button className={styles.signUpBtn}>Sign up for free -&gt;</button>
+      </span>
+      <span className={styles.screenshotContainer}>
+        <span className={styles.screenshotBg}></span>
+        <span className={styles.bgOutline}>
+          <Image src="/screenshotoutline.svg" width={3120} height={761} />
+        </span>
+        <img
+          src="/screenshot.jpg"
+          alt="screenshot"
+          className={styles.screenshot}
+        />
       </span>
     </div>
   );
