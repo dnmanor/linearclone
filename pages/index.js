@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Body from "../components/Body";
+import Companies from "../components/Companies";
 import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <main >
         <Header />
         <Body />
+        <Companies />
       </main>
 
       <footer></footer>
