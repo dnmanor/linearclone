@@ -1,0 +1,38 @@
+
+.companiesSectionContainer {
+    padding: 48px 0 72px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 30%;
+    flex-direction: column;
+    background-color: #060606;
+    
+}
+  
+  .companiesSlogan {
+    text-transform: uppercase;
+    font-size: 0.9333rem;
+    letter-spacing: 0.2rem;
+    color: #5e6ad2;
+    margin-bottom: 48px;
+  }
+  
+  .companiesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .company{
+    margin: 18px;
+    flex-shrink: 1;
+    flex-basis: 1;
+    max-width: 144px;
+  }
