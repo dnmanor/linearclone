@@ -11,6 +11,7 @@
   overflow: hidden;
 }
 
+
 .bannerContainer {
   display: flex;
   position: relative;
@@ -95,7 +96,7 @@
   color: #5e6ad2;
 }
 
-.titleWrapper{
+.titleWrapper {
   display: flex;
   align-items: center;
   text-align: center;
@@ -104,7 +105,7 @@
   flex-direction: column;
 }
 
-.heroTitle{
+.heroTitle {
   max-width: 900px;
   font-size: 4.4rem;
   font-weight: 900;
@@ -113,7 +114,7 @@
   color: rgb(247, 248, 248);
 }
 
-.heroDescription{
+.heroDescription {
   max-width: 720px;
   font-size: 1.6rem;
   color: #95a2b3;
@@ -122,9 +123,14 @@
   font-weight: 100;
 }
 
-.signUpBtn{
+.signUpBtn {
   color: rgb(255, 255, 255);
-  background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+  background: linear-gradient(
+    92.88deg,
+    rgb(69, 94, 181) 9.16%,
+    rgb(86, 67, 204) 43.89%,
+    rgb(103, 63, 215) 64.72%
+  );
   cursor: pointer;
   border: none;
   flex-shrink: 0;
@@ -138,10 +144,10 @@
   margin-top: 25px;
 }
 
-.screenshotBg{
+.screenshotBg {
   will-change: contents;
   backface-visibility: hidden;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
   position: absolute;
   left: 0;
   top: 100%;
@@ -149,40 +155,50 @@
   right: 0;
   opacity: 0.2;
   pointer-events: none;
-  background: conic-gradient( from 230.29deg at 51.63% 52.16%, #2400ff 0deg, #0087ff 67.5deg, #ff1d7a 198.75deg, #f5381b 251.25deg, #ff5335 301.88deg, #691eff 360deg );
+  background: conic-gradient(
+    from 230.29deg at 51.63% 52.16%,
+    #2400ff 0deg,
+    #0087ff 67.5deg,
+    #ff1d7a 198.75deg,
+    #f5381b 251.25deg,
+    #ff5335 301.88deg,
+    #691eff 360deg
+  );
   filter: blur(160px);
-  height:100vh;
+  height: 100vh;
 }
 
-.screenshot{
+.screenshot {
   position: absolute;
   margin-top: 20%;
   width: 80%;
   border-radius: 4px;
   border: 1px solid #26272b;
-  box-shadow: 0 30px 55px rgb(0,0,0,0.5);
+  box-shadow: 0 30px 55px rgb(0, 0, 0, 0.5);
   z-index: 10;
 }
 
-.screenshotContainer{
+.screenshotContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.bgOutline{
-width: 80%;
-overflow: hidden;
+.bgOutline {
+  width: 80%;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 1200px){
-  .screenshot{
-    margin-top: 7.5%;
+@media screen and (max-width: 1200px) {
+  .screenshot {
+    margin-top: 15%;
   }
+
+ 
 }
-@media (max-width: 1030px){
-  .heroTitle{
+@media (max-width: 1030px) {
+  .heroTitle {
     font-size: 8vw;
   }
 }
@@ -192,13 +208,14 @@ overflow: hidden;
     padding: 100px 24px;
   }
 
-  .heroDescription{
+  .heroDescription {
     font-size: 1.5rem;
   }
 
-  .signUpBtn{
+  .signUpBtn {
     margin-top: 30px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
