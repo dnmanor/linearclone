@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Body from "../components/Body";
 import Companies from "../components/Companies";
+import Features from "../components/Features";
 import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Header />
         <Body />
         <Companies />
+        <Features />
       </main>
 
       <footer></footer>
