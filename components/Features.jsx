@@ -6,22 +6,24 @@ import { Shortcut, Software, Team, Offline, Moon } from "../components/icons";
 const Features = () => {
   return (
     <div className={styles.featuresContainer}>
-      <div className={styles.featuresHeading}>
-        <h2 className={styles.header}>
-          An experience you'd expect from a professional tool.
-        </h2>
-        <div className={styles.description}>
-          Opinionated and designed for daily use.
+      <div className={styles.featuresWrapper}>
+        <div className={styles.featuresHeading}>
+          <h2 className={styles.header}>
+            An experience you'd expect from a professional tool.
+          </h2>
+          <div className={styles.description}>
+            Opinionated and designed for daily use.
+          </div>
         </div>
-      </div>
-      <div className={styles.featureTilesContainer}>
-        {features.map((feature, index) => (
-          <FeatureTile
-            title={feature.name}
-            description={feature.description}
-            key={index}
-          />
-        ))}
+        <div className={styles.featureTilesContainer}>
+          {features.map((feature, index) => (
+            <FeatureTile
+              title={feature.name}
+              description={feature.description}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
