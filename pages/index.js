@@ -4,6 +4,7 @@ import Body from "../components/Body";
 import Companies from "../components/Companies";
 import Features from "../components/Features";
 import Header from "../components/Header";
+import Interface from "../components/Interface";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Body />
         <Companies />
         <Features />
+        <Interface />
       </main>
 
       <footer></footer>
