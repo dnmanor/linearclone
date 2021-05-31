@@ -70,7 +70,7 @@
 
 .screenshotcontainer{
     width: 1000px;
-    height: 680px;
+    height: 780px;
     border-radius: 24px;
     overflow: hidden;
     position: relative;
@@ -108,12 +108,33 @@
     box-shadow: 0 26px 44px 18px rgba(0,0,0,0.5);
 }
 
-@media (max-width: 750px){
+@media (max-width: 1024px){
+    .screenshotWrapper{
+        margin-left: 5vw;
+    }
+}
+/* 
+@media (max-width: 600px){
+  
+} */
+
+@media ( max-width: 750px){
     .interfaceContent{
         flex-direction: column;
     }
 
-    .screenshotWrapper{
-        width: 80%;
+    /* .screenshotWrapper{
+        height: 320px;
+        width: 63%;
+    } */
+
+    .screenshotcontainer{
+        width: 550px;
+        margin-left: 0;
+    }
+
+    .screenshotOne, .screenshotTwo{
+        height: 50%;
+        left: 0;
     }
 }
