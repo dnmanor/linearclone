@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Actions from "../components/Actions";
 import Body from "../components/Body";
 import Companies from "../components/Companies";
 import Features from "../components/Features";
@@ -22,6 +23,7 @@ export default function Home() {
         <Companies />
         <Features />
         <Interface />
+        <Actions />
       </main>
 
       <footer></footer>
