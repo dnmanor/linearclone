@@ -3,6 +3,7 @@ import Image from "next/image";
 import Actions from "../components/Actions";
 import Body from "../components/Body";
 import Companies from "../components/Companies";
+import Cycles from "../components/Cycles";
 import Features from "../components/Features";
 import Header from "../components/Header";
 import Interface from "../components/Interface";
@@ -24,6 +25,7 @@ export default function Home() {
         <Features />
         <Interface />
         <Actions />
+        <Cycles />
       </main>
 
       <footer></footer>
