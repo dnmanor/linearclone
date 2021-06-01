@@ -7,6 +7,7 @@ import Cycles from "../components/Cycles";
 import Features from "../components/Features";
 import Header from "../components/Header";
 import Interface from "../components/Interface";
+import Roadmap from "../components/Roadmap";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <Interface />
         <Actions />
         <Cycles />
+        <Roadmap />
       </main>
 
       <footer></footer>

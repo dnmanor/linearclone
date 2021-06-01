@@ -115,6 +115,18 @@
     background-position: center center;
 }
 
+.gradientyrp{
+    position: absolute;
+    border-radius: 24px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/yellowredpink.png);
+    background-size: cover;
+    background-position: center center;
+}
+
 .cyclesScreenshot{
     margin: 1px 1px;
     /* border-radius: 8px; */
