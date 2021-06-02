@@ -95,6 +95,41 @@
 
 }
 
+.smallerContainer{
+    display: flex;
+    margin-top: 24px;
+}
+
+.smallIntegration{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    background: #1b1c1d;
+    padding: 32px;
+    box-shadow: 0px 13px 40px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+.smallIntegration:first-child{
+    margin-right: 20px;
+}
+
+.smallDescription{
+    margin-left: 32px;
+}
+
+.smallTitle{
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.p{
+    color: #8A8F98;
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.5;
+}
 
 @media (max-width: 1024px) {
     .title{
