@@ -19,7 +19,7 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <div className={styles.cyclesScreenshotWrapper}>
+          <div className={styles.screenshotWrapper}>
             <div className={styles.screenshotcontainer}>
               <div className={styles.gradientyrp}></div>
               <img
