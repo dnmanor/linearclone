@@ -169,7 +169,7 @@ export function Team(props) {
 
 export function Github(props) {
   return (
-    <svg width={25} height={24} viewBox="0 0 25 24" fill="none" {...props}>
+    <svg width={48} height={48} viewBox="0 0 25 24" fill="none" {...props}>
       <path
         d="M13 0a12 12 0 00-3.72 23.41h.29a1 1 0 001.06-1.06v-.21-1.09a.5.5 0 00-.2-.33.5.5 0 00-.42-.1c-2.68.58-3.25-1.1-3.29-1.21A4.64 4.64 0 005 17.22a1.164 1.164 0 00-.15-.11.63.63 0 01.38-.07 1.47 1.47 0 011.15.88 3 3 0 004 1.16.5.5 0 00.29-.36 2 2 0 01.56-1.23.5.5 0 00-.27-.87c-2.37-.27-4.79-1.1-4.79-5.19a4 4 0 011.05-2.78.5.5 0 00.09-.53 3.52 3.52 0 01.01-2.4 5.54 5.54 0 012.52 1.15.49.49 0 00.42.07A10.61 10.61 0 0113 6.57c.929 0 1.854.125 2.75.37a.49.49 0 00.41-.07 5.59 5.59 0 012.52-1.15 3.57 3.57 0 010 2.38.5.5 0 00.09.53 4 4 0 011.05 2.75c0 4.09-2.43 4.91-4.81 5.18a.5.5 0 00-.27.88 2.2 2.2 0 01.61 1.74v3.18a1.058 1.058 0 00.36.83 1.2 1.2 0 001.06.19A12 12 0 0013 0z"
         fill="#fff"
@@ -221,7 +221,7 @@ export function Sentry(props) {
 
 export function Figma(props) {
   return (
-    <svg width={16} height={24} viewBox="0 0 16 24" fill="none" {...props}>
+    <svg width={48} height={48} viewBox="0 0 16 24" fill="none" {...props}>
       <path d="M4 24a4 4 0 004-4v-4H4a4 4 0 100 8z" fill="#0ACF83" />
       <path d="M0 12a4 4 0 014-4h4v8H4a4 4 0 01-4-4z" fill="#A259FF" />
       <path d="M0 4a4 4 0 013.997-4h4v8H4a4 4 0 01-4-4z" fill="#F24E1E" />
@@ -233,7 +233,7 @@ export function Figma(props) {
 
 export function Slack(props) {
   return (
-    <svg width={24} height={25} viewBox="0 0 24 25" fill="none" {...props}>
+    <svg width={48} height={48} viewBox="0 0 24 25" fill="none" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
