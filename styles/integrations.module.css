@@ -1,0 +1,116 @@
+.integrationsWrapper{
+    padding: 0 32px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerContainer{
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 3em;
+}
+
+.title{
+    margin: 0;
+    line-height: 1.25;
+    font-size: 44px;
+}
+
+.description{
+    margin-top: 0.8em;
+    color: #8A8F98;
+    line-height: 1.45;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.automatedTracking{
+    display: flex;
+    background: #1b1c1d;
+    box-shadow: 0px 13px 40px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.detailsContainer{
+    padding: 20px 80px 0;
+    min-width: 500px;
+}
+
+.iconsContainer{
+    display: flex;
+    align-items: center;
+}
+
+.hb{
+    width: 1px;
+    height: 44px;
+    margin: 0 28px;
+    background: #313035;
+    margin-bottom: 24px;
+}
+
+.descriptionContainer{
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.heading{
+    margin: 0;
+    line-height: 1.25;
+    font-size: 22px;
+}
+
+.descriptionAutomate{
+    margin-top: 0.8em;
+    color: #8A8F98;
+    line-height: 1.45;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.screenshotContainer{
+    background-color: #323da2;
+    flex-shrink: 0;
+    align-self: flex-start;
+    padding: 10px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.screenshot{
+    border-radius: 8px;
+    width: 555px;
+
+}
+
+
+@media (max-width: 1024px) {
+    .title{
+        font-size: 36px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+
+    .heading{
+        font-size: 18px;
+    }
+
+    .descriptionAutomate{
+        font-size: 18px;
+    }
+}
+
