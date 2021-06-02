@@ -6,6 +6,7 @@ import Companies from "../components/Companies";
 import Cycles from "../components/Cycles";
 import Features from "../components/Features";
 import Header from "../components/Header";
+import Integrations from "../components/Integrations";
 import Interface from "../components/Interface";
 import Roadmap from "../components/Roadmap";
 import styles from "../styles/Home.module.css";
@@ -28,6 +29,7 @@ export default function Home() {
         <Actions />
         <Cycles />
         <Roadmap />
+        <Integrations />
       </main>
 
       <footer></footer>
